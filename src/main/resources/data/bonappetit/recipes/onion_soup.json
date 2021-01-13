@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:salt"
+        },
+        {
+            "tag": "c:onion"
+        },
+        {
+            "tag": "c:onion"
+        },
+        {
+            "item": "bonappetit:cooking_pot"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:onion_soup",
+        "count": 1
+    }
+}

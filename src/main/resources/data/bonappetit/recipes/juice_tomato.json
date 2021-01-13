@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:juicer"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "bonappetit:tomato"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:juice_tomato",
+        "count": 1
+    }
+}

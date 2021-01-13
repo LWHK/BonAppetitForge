@@ -1,0 +1,10 @@
+{
+    "music_disc_afternoon": {
+        "sounds": [
+          {
+            "name": "bonappetit:records/afternoon",
+            "stream": true
+          }
+        ]
+      } 
+}

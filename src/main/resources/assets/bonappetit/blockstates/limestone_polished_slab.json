@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "bonappetit:block/limestone_polished_slab" },
+    "type=top": { "model": "bonappetit:block/limestone_polished_slab_top" },
+    "type=double": { "model": "bonappetit:block/limestone_polished" }
+  }
+}

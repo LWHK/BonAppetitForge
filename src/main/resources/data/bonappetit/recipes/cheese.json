@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:cooking_pot"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "tag": "c:salt"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:cheese",
+        "count": 2
+    }
+}

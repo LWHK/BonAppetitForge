@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bonappetit:blocks/limestone_polished",
+    "top": "bonappetit:blocks/limestone_polished",
+    "side": "bonappetit:blocks/limestone_polished"
+  }
+}

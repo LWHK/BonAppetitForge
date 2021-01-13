@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "bonappetit:limestone"
+    },
+    "result": "bonappetit:limestone_polished_slab",
+    "count": 2
+}

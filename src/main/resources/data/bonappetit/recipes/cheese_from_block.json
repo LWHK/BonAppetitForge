@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:cheese_block"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:cheese",
+        "count": 4
+    }
+}

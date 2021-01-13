@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:salt_block"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:salt",
+        "count": 9
+    }
+}

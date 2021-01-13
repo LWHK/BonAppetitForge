@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:cooking_pan"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "tag": "c:dough"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:pancakes",
+        "count": 2
+    }
+}

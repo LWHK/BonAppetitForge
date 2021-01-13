@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "2 2",
+        "121"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:iron_nugget"
+        },
+        "2": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "bonappetit:cooking_pot",
+        "count": 1
+    }
+}

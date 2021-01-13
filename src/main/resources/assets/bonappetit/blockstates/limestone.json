@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "bonappetit:block/limestone"
+      },
+      {
+        "model": "bonappetit:block/limestone_mirrored"
+      },
+      {
+        "model": "bonappetit:block/limestone",
+        "y": 180
+      },
+      {
+        "model": "bonappetit:block/limestone_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}
