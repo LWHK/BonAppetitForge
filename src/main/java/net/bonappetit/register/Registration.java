@@ -21,5 +21,6 @@ public class Registration {
         ModBlocks.init();
         ModSoundEvents.init();
         ModItems.init();
+
     }
 }

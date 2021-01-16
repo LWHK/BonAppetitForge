@@ -3,6 +3,7 @@ package net.bonappetit.register;
 import java.util.function.Supplier;
 
 import net.bonappetit.BonAppetit;
+import net.bonappetit.common.ModOreBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
@@ -17,7 +18,7 @@ import net.minecraftforge.fml.RegistryObject;
 
 public class ModBlocks {
 
-    public static final RegistryObject<Block> HALITE_ORE = register("halite_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).harvestLevel(0).hardnessAndResistance(2f, 3f).sound(SoundType.NETHER_GOLD).setRequiresTool()));
+    public static final RegistryObject<Block> HALITE_ORE = register("halite_ore", () -> new ModOreBlock(AbstractBlock.Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).harvestLevel(0).hardnessAndResistance(2f, 3f).sound(SoundType.NETHER_GOLD).setRequiresTool()));
     public static final RegistryObject<Block> LIMESTONE = register("limestone", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestTool(ToolType.PICKAXE).harvestLevel(0).hardnessAndResistance(1.25f, 3f).sound(SoundType.NETHERRACK).setRequiresTool()));
     public static final RegistryObject<Block> LIMESTONE_STAIRS = register("limestone_stairs", () -> new StairsBlock(LIMESTONE.get().getDefaultState(), AbstractBlock.Properties.from(LIMESTONE.get())));
     public static final RegistryObject<Block> LIMESTONE_SLAB = register("limestone_slab", () -> new SlabBlock(AbstractBlock.Properties.from(LIMESTONE.get())));

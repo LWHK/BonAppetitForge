@@ -1,11 +1,12 @@
 package net.bonappetit;
 
+import net.bonappetit.annotations.AnnotatedItemHolder;
+import net.bonappetit.common.OreGeneration;
 import net.bonappetit.register.ModItems;
 import net.bonappetit.register.Registration;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -31,7 +32,7 @@ public class BonAppetit
     public static final ItemGroup ITEM_GROUP = new ItemGroup("bonappetit.general") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.FLOUR.get());
+            return new ItemStack(AnnotatedItemHolder.FLOUR);
         }
     };
 
@@ -58,6 +59,8 @@ public class BonAppetit
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        OreGeneration.registerOres();
+
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
@@ -84,4 +87,4 @@ public class BonAppetit
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
-}
+ }
